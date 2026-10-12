@@ -6,6 +6,15 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#top {
+  box-sizing: border-box;
+  max-width: 900px;
+  width: 100%;
 }
 
 h1, h2 {
@@ -49,4 +58,49 @@ p {
 
 .topnav a:hover {
   text-decoration: underline;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 32px 24px;
+}
+
+.portfolio-section {
+  margin-top: 28px;
+}
+
+.portfolio-entry {
+  border-bottom: 1px solid #17342e;
+  margin-top: 16px;
+  padding-bottom: 16px;
+}
+
+.portfolio-entry p {
+  margin-top: 8px;
+}
+
+footer {
+  background-color: #17342E;
+  color: #FFFFFF;
+  padding: 14px 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .topnav ul {
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  main {
+    padding: 24px 16px;
+  }
 }
