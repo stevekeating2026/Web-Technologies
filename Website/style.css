@@ -80,6 +80,32 @@ main {
   margin-top: 8px;
 }
 
+.service-list {
+  margin-top: 20px;
+}
+
+.service-item {
+  background-color: #f5f1dc;
+  border: 1px solid #17342E;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.service-item h2 {
+  margin-bottom: 10px;
+}
+
+.service-item h3 {
+  color: #17342E;
+  margin: 10px 0 5px 0;
+}
+
+.service-price {
+  font-weight: bold;
+  color: #17342E;
+  margin-top: 8px;
+}
+
 footer {
   background-color: #17342E;
   color: #FFFFFF;
