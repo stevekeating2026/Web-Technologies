@@ -1,40 +1,67 @@
-body { 
-    margin: 30px; 
-    font-family: Arial, sans-serif; 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
     font-size: 24px;
-    line-height: 1.5; 
-    background-color: #587da2; 
-    color: #f2f3f5; 
+    line-height: 1.5;
+    background-color: #587da2;
+    color: #f2f3f5;
 }
 
-h1 { 
-    font-size: 32px; <padding> 10px</padding> <color> #</color> background-color: #E2E8F0; <color> #1E293B</color>
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px 70px;
 }
 
-h2 { 
-    font-size: 28px; <padding> 10px</padding> <color> #1E293B</color>
+h1 {
+    font-size: 32px;
+    color: #1E293B;
+    background-color: #E2E8F0;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
-.info-card h2 { 
-    margin-top: 0; <background-color> #E2E8F0</background-color> <color> #1E293B</color>
+h2 {
+    font-size: 28px;
+    color: #1E293B;
+    margin: 0 0 10px;
 }
 
-.info-card p { 
-    margin-bottom: 0; 
-    <background-color> #E2E8F0</background-color> <color> #1E293B</color>
-    <margin> 10px</margin> <padding> 10px</padding>
+.info-card {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #E2E8F0;
+    color: #1E293B;
 }
 
-.outside { 
-    margin-top: 0; 
+.info-card h2 {
+    margin-top: 0;
 }
 
-/* Type the .info-card rule here. */
+.info-card p {
+    margin: 0;
+    background-color: #E2E8F0;
+    color: #1E293B;
+}
+
+.outside {
+    margin-top: 0;
+    color: #1E293B;
+}
+
 footer {
-    position: fixed; 
-    bottom: 0; 
-    width: 100%; 
-    text-align: center; color: #090909;
-    background-color: #350b97f9; 
-    padding: 10px; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #090909;
+    background-color: #350b97f9;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
 }
